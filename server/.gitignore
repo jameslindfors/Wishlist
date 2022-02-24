@@ -1,0 +1,15 @@
+# Env
+.env
+
+# Logging
+.log
+.logs
+
+# Node
+node_modules
+
+# Py env
+scripts/env
+
+# DS_Store
+.DS_Store

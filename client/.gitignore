@@ -1,0 +1,17 @@
+# Env
+.env
+
+# Node
+node_modules
+
+# Yarn
+.yarn-integrity
+.yarnclean
+yarn.lock
+
+# Logs
+yarn.log
+yarn-error.log
+
+# DS_Store
+.DS_Store

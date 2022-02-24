@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-html-parser": "^5.2.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "express-graphql": "^0.12.0",
+    "express-validator": "^6.14.0",
+    "graphql": "^15.8.0",
+    "graphql-depth-limit": "^1.1.0",
+    "graphql-rate-limit": "^3.3.0",
+    "helmet": "^5.0.1",
+    "mongoose": "^6.1.4",
+    "nanoid": "^3.1.30",
+    "winston": "^3.4.0"
+  }
+}
