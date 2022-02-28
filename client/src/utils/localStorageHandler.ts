@@ -1,6 +1,6 @@
 import type { Wishlist } from "types/types";
 
-const saveWishlistToLocalStorage = (id: string, wishlist: any) => {
+const saveWishlistToLocalStorage = (id: string, wishlist: Wishlist) => {
   localStorage.setItem(id, JSON.stringify(wishlist));
 };
 

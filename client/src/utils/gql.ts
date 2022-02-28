@@ -65,7 +65,7 @@ async function saveWishlist(wishlist: Wishlist) {
   try {
     const res = await client.request(createWishlist, wishlist);
     const data = res.createWishlist;
-    // Cache in localstorage
+    // Cache in local storage
     saveWishlistToLocalStorage(data._id, data);
     return {
       id: data._id,
@@ -97,12 +97,13 @@ async function loadWishlist(
       }
     );
     databaseWishlist && setWishlist(databaseWishlist);
+    // Cache in localstorage
+    saveWishlistToLocalStorage(id, databaseWishlist);
     return databaseWishlist;
   } else {
     localStorageWishlist && setWishlist(localStorageWishlist);
     return localStorageWishlist;
   }
-  throw new Error("Unable to load requested wishlist");
 }
 
 export { createWishlist, getWishlistById, saveWishlist, loadWishlist };
