@@ -1,4 +1,4 @@
-# Connect Engineering 2022
+# Connect Engineering Apprenticeship 2022
 
 ## James Lindfors
 
@@ -8,18 +8,24 @@
 
 | File                                                                 | Description                                                                                                                                                                                                                                                                    |
 | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+<<<<<<< HEAD
 | [gql.ts] (./client/src/utils/gql.ts)                                 | Contains code that uses graphql-request to talk to the graphql server. When storing to the database a copy is also stored to local storage. When a request for data is made it checks local storage before getting data from the server in an effort to reduce database reads. |
 | [localStorageHandler.ts] (./client/src/utils/localStorageHandler.ts) | Contains logic to interface with browsers local storage. Methods to add data to storage, request data back, and a method that runs on application load that checks to remove old data.                                                                                         |
 | [wishlist.tsx] (./client/src/components/list/wishlist.tsx)           | Main component that uses the methods from gql.ts. When the component mounts the useEffect hook runs and attempts to load a wishlist. If none is found it uses the navigate hook from React Router to navigate to an error page.                                                |
 | [databaseStructure.json](./server/db/sampleDatabaseStructure.json)   | Contains a copy of one entry in the database. It models the structure of the documents stored in the database.                                                                                                                                                                 |
+=======
+| [gql.ts](./client/src/utils/gql.ts)                                 | Contains code that uses graphql-request to talk to the graphql server. When storing to the database a copy is also stored to local storage. When a request for data is made it checks local storage before getting data from the server in an effort to reduce database reads. |
+| [localStorageHandler.ts](./client/src/utils/localStorageHandler.ts) | Contains logic to interface with browsers local storage. Methods to add data to storage, request data back, and a method that runs on application load that checks to remove old data.                                                                                         |
+| [wishlist.tsx](./client/src/components/list/wishlist.tsx)           | Main component that uses the methods from gql.ts. When the component mounts the useEffect hook runs and attempts to load a wishlist. If none is found it uses the navigate hook from React Router to navigate to an error page.                                                |
+>>>>>>> 08c8f356573fd80eff02c011852b94ce7de69c20
 
-### Example
+### URL / ID Structure
 
 <http://localhost:8080/#/workfromhome/0yfay9SREdZCzJvqYao68>
 
 The url is made up of three parts. The root (which when working locally is port 8080 of local host), the name of the wishlist, and a unique identifier. The identifier at the end is what is passed into the loadWishlist method in wishlist.tsx.
 
-![Work From Home Wishlist](/\_images/WorkFromHomeWishlist.png WFH Wishlist)
+![Work From Home Wishlist](/_images/WorkFromHomeWishlist.png)
 
 ### Background
 
