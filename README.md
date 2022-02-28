@@ -11,6 +11,7 @@
 | [gql.ts] (./client/src/utils/gql.ts)                                 | Contains code that uses graphql-request to talk to the graphql server. When storing to the database a copy is also stored to local storage. When a request for data is made it checks local storage before getting data from the server in an effort to reduce database reads. |
 | [localStorageHandler.ts] (./client/src/utils/localStorageHandler.ts) | Contains logic to interface with browsers local storage. Methods to add data to storage, request data back, and a method that runs on application load that checks to remove old data.                                                                                         |
 | [wishlist.tsx] (./client/src/components/list/wishlist.tsx)           | Main component that uses the methods from gql.ts. When the component mounts the useEffect hook runs and attempts to load a wishlist. If none is found it uses the navigate hook from React Router to navigate to an error page.                                                |
+| [databaseStructure.json](./server/db/sampleDatabaseStructure.json)   | Contains a copy of one entry in the database. It models the structure of the documents stored in the database.                                                                                                                                                                 |
 
 ### Example
 

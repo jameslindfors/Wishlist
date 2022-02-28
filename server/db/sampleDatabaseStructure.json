@@ -1,0 +1,32 @@
+{
+  "_id": "0yfay9SREdZCzJvqYao68",
+  "url": "http://localhost:8080/#/workfromhome/0yfay9SREdZCzJvqYao68",
+  "name": "Work From Home",
+  "description": "Items to create a perfect work from home setup",
+  "items": [
+    {
+      "_id": "1",
+      "name": "Office Chair",
+      "image": "https://m.media-amazon.com/images/I/71EgGUGVrrL._AC_SL1500_.jpg",
+      "price": 59.98,
+      "link": "https://www.amazon.com/neo-chair-Gaming-Ergonomic-Comfortable-Adjustable/dp/B08KSCDM47/?_encoding=UTF8&pd_rd_w=JuKen&pf_rd_p=fa75774a-1c0c-4996-b848-2ed25495c87c&pf_rd_r=8NSPK2J8ARN6TJDDR615&pd_rd_r=d8a59e79-2792-426e-b6d2-8e976cfee51b&pd_rd_wg=xtCzj&ref_=pd_gw_sbe_vws"
+    },
+    {
+      "_id": "2",
+      "name": "KeyChron K2",
+      "image": "https://m.media-amazon.com/images/I/614chmBNoqL._AC_SL1200_.jpg",
+      "price": 98.99,
+      "link": "https://www.amazon.com/Keychron-Wireless-Bluetooth-Mechanical-Tenkeyless/dp/B08CDD57MS/?_encoding=UTF8&pd_rd_w=n7Etz&pf_rd_p=b6ab2b0a-f907-4bd2-96ed-82624bd6ea7e&pf_rd_r=CPY7B7J66KMN1TWPXAZN&pd_rd_r=712b41d7-c977-4a78-950d-fb7ca80fc46b&pd_rd_wg=TzTtH&ref_=pd_gw_bmx_gp_3j25v2jo"
+    },
+    {
+      "_id": "3",
+      "name": "Logitech MX Vertical Wireless Mouse ",
+      "image": "https://m.media-amazon.com/images/I/61Icm0c2uFL._AC_SL1500_.jpg",
+      "price": 97.98,
+      "link": "https://www.amazon.com/Logitech-Vertical-Wireless-Mouse-Rechargeable/dp/B07FNJB8TT/?_encoding=UTF8&pd_rd_w=5ObIw&pf_rd_p=b6ab2b0a-f907-4bd2-96ed-82624bd6ea7e&pf_rd_r=3VVA8XQNERKZ8ZC1KJ5X&pd_rd_r=a303236a-3ca9-45de-a180-54f7da2b82b3&pd_rd_wg=Nkdfg&ref_=pd_gw_bmx_gp_3narkzmn"
+    }
+  ],
+  "createdAt": "1641278880504",
+  "__v": 0,
+  "author": "James Lindfors"
+}
