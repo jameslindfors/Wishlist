@@ -12,7 +12,7 @@
 | [localStorageHandler.ts](./client/src/utils/localStorageHandler.ts) | Contains logic to interface with browsers local storage. Methods to add data to storage, request data back, and a method that runs on application load that checks to remove old data.                                                                                         |
 | [wishlist.tsx](./client/src/components/list/wishlist.tsx)           | Main component that uses the methods from gql.ts. When the component mounts the useEffect hook runs and attempts to load a wishlist. If none is found it uses the navigate hook from React Router to navigate to an error page.                                                |
 
-### Example
+### URL / ID Structure
 
 <http://localhost:8080/#/workfromhome/0yfay9SREdZCzJvqYao68>
 
